@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'market_app',
+    'fruit_app',
     'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
