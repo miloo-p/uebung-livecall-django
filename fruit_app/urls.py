@@ -5,5 +5,5 @@ urlpatterns = [
 
     path('', start_page_view),
     path('fruits/', all_fruit_view),
-    path('fruits/<int:fruit_id>', single_fruit_view),
+    path('fruits/<int:fruit_id>/', single_fruit_view),
 ]

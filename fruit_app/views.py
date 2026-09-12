@@ -12,8 +12,8 @@ def start_page_view(request):
 
 
 def all_fruit_view(request):
-    return JsonResponse(fruits)
+    return JsonResponse(fruits, safe=False)
 
 
 def single_fruit_view(request, fruit_id):
-    return JsonResponse(fruits)
+    return JsonResponse(fruits[fruit_id])
